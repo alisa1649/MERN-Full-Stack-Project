@@ -40,6 +40,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffffbb;
+    position: relative;
 
     .post-body {
         display: flex;
@@ -110,6 +111,19 @@
                     margin-right: 5px;
                 }
             }
+        }
+    }
+    .buttons-timestamps-container {
+        display: flex;
+        flex-direction: column;
+        min-width: 125px;
+
+        .post-timestamps {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-size: 13px;
+        color: rgb(59, 59, 59);
         }
     }
     .delete-button {

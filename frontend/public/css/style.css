@@ -809,7 +809,8 @@ input:read-only {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffffbb; }
+  background-color: #ffffffbb;
+  position: relative; }
   .post-item-container .post-body {
     display: flex;
     align-items: center; }
@@ -858,6 +859,16 @@ input:read-only {
           color: #f71735 !important; }
         .post-item-container .post-body .vote-box #downvote i {
           margin-right: 5px; }
+  .post-item-container .buttons-timestamps-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 125px; }
+    .post-item-container .buttons-timestamps-container .post-timestamps {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      font-size: 13px;
+      color: #3b3b3b; }
   .post-item-container .delete-button:hover {
     cursor: pointer; }
 
